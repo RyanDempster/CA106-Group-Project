@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+<section id="home">
+    <meta charset="UTF-8">
+    <meta name="description" content="Add your meta description" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--This means that the browser will (probably) render the width of the page at the width of its own screen. //-->
+    <title>Ryan Dempster's Portfolio</title>
+    <!-- https://fonts.google.com/-->
+
+	<link rel="stylesheet" href="css/layoutIP.css" /> 
+</section>
+</head>
+
+
+<!-- all the classes below will require some CSS styles to be included in your layout.css file, if you do not
+include a style for these classes you should remove the class from your html file //-->
+<body style="background-image: url('images/background.jpg');">
+    <main class= "main-style";>
+	 <header class="page-header">  <!--The header element is a box/container for content like; heading tag(s); logos; and sometimes information on the author-->
+            <div class="header-content">  <!-- The div tag is a division/section in an HTML document. It's also used as a container for HTML elements and can the be styled with CSS-->
+                <h1>My Portfolio</h1>
+
+                <p class="ridge">An Enterprise Computing student who loves anything to do with computers!</p>
+            </div>
+    <hr>
+		 </header>
+	    <!-- You could style Main here if you wish-->
+        <nav> <!-- the navigation part of the page.  Note links just jump to different parts of the page.-->
+                 
+				<a href="#home">Home</a></li> 
+                <a href="#about">About Me</a></li>
+                <a href="#work">Work Experience</a></li>
+                <a href="#images">Image Gallery</a></li>
+                <a href="#contact">Contact Me</a></li>
+            
+        </nav>
+
+	 
+<br>
+<br>
+
+    <!--Note here the use of an ID.  the link above actually links to this.  It's a good example of where an ID can be used.  Note also that the section has a class attribute.  use this for styling. -->
+        <section id="about" class="about-me container" style="background-image: url('images/text.jpg')">  <!--The section id is used so the nav bar knows what section is "about" so it can scroll/go to there. The class="about-me container" is two attributes both used for the css/styling.-->
+            <div class="container-content">
+			<br>
+                <h2>About Me</h2>
+                <div class="content">
+					<p>Hi, my name is Ryan Dempster and I was born on the 5th of December  2002. <img src="images/about-me.jpg" alt="picture of me" id ="me">
+					<br>
+					<br>
+I have are four people in my family (five if you count our dog - Cooper), my mam, my dad and my younger sister.
+<br> 
+I am  half Irish and half Kiwi/New Zealander, but I was born and raised in Ireland.
+<br>
+<br>
+I am doing ‘Enterprise Computing’ at DCU. 
+<br>
+I have a passion for anything involving computers and have a basic understanding of <code>Python, HTML, CSS, and JavaScript.</code> 
+<br>
+<br>
+In my spare time, I enjoy watching movies and tv series. My favourite movie is ‘Parasite’ and my favourite tv series is ‘Attack on Titan’. 
+<br>
+When I’m not watching tv and movies I have a few hobbies that I enjoy:
+					<ul>
+						<li>Football
+						<li>Basketball
+						<li>Tennis
+						<li>Chess
+						<li>Video games
+					    <li>Krav maga
+
+					</ul>
+					</p>
+                </div>
+            </div>
+        </section>
+		
+<br>
+
+        <section id="work" class="work-experience container" style="background-image: url('images/text.jpg')">
+            <div class="container-content">
+			<br>
+                <h2>Work Experience</h2>
+                <div class="content">
+				<p>
+					I did work experience in <a href= https://grantthornton.ie/ target="_blank">Grant Thornton</a> who are an accounting and consulting firm. 
+					<br>
+					<br>
+					I was in the business risk and analysis department as an intern of sorts. While there I became much more proficient in PowerPoint and Microsoft Excel. 
+					<br>
+					<br>
+					They had me perform many different tasks and I experienced many different things throughout my work experience:
+				<ul>
+					<li>Creating a PowerPoint for a new piece of business risk analysis software they were going to release
+					<li>Compiling a list of the top thirty building/engineering companies in Ireland.
+					<li>Organising documents by assigning them to the directory of the company they belong to.
+					<li>A course on effective communication, which improved my skills in public speaking and building rapport with others and customers.
+				</ul>
+					I have also been working at <a href= https://crokepark.ie/stadium target="_blank">Croke Park</a>, handing out match-day programmes and working the stiles. These duties let me put the skills I learned in the effective communication course to use and helped me further improve upon them.
+					<br>
+					<hr>
+					<br>
+					<iframe id="grant-thornton" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.325346704247!2d-6.25260954870248!3d53.34696118226821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8e3d76896f%3A0x96f0a416b48b7fe7!2sGrant%20Thornton!5e1!3m2!1sen!2sie!4v1606055813328!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<iframe id="croker" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2458.5318809618284!2d-6.253402948702017!3d53.36071518123795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e639264f995%3A0xe51347860e88b45f!2sCroke%20Park!5e1!3m2!1sen!2sie!4v1606055890504!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</p>
+                </div>
+            </div>
+        </section>
+		
+<br>
+
+        <section id="images" class="image-gallery container" style="background-image: url('images/text.jpg')">
+            <div class="container-content">
+			<br>
+                <h2>Image Gallery</h2>
+                <div class="content" id="box">
+
+					<figure id="chess">
+					<img src="images/chess.jpg" width="350" height="250" alt="Chess board">
+					<figcaption> My Grandad taught me how to play chess and it has been something that I really enjoyed playing with him since I was about 10. .I am not particularly good but I enjoy playing it. I recently watched 'The Queen's Gambit' on Netflix and it has made me play chess a lot more. It's really developed my problem solving abilities, and led to my interest in Computer Science.</figcaption>
+					</figure>
+
+					<figure id="tv-show">
+					<img src="images/tv-show.jpg" width="350" height="250" alt="Attack on Titan poster">
+					<figcaption> Attack on Titan is a show I found on Netflix and it was incredibly well written, intense and the voice acting was decent. I didn't realize until I went looking for a season 2 of the show that it was originally in Japanese. Despite that, I really enjoy the series and I am really looking forward to the final season.</figcaption>
+					</figure>
+					
+					<br>
+
+					<figure id="movie">
+					<img src="images/movie.jpg" width="350" height="250" alt="Parasite movie poster">
+					<figcaption> Parasite is the first ever foreign language film to win the oscar for 'Best Picture'. I saw the movie with friends when it was re-released after winning the oscar. The film is entirely in Korean, with English subtitles and it is my favourite film to date. </figcaption>
+					</figure>
+					
+                </div>
+            </div>
+        </section>
+		
+<br>
+		
+        <section id="contact" class="contact-me container" style="background-image: url('images/text.jpg')">
+            <div class="container-content">
+			<br>
+                <h2>Contact Me</h2>
+                <div class="content">
+                    <form action="https://formspree.io/[your email address goes here]" method="post">
+	                    <!-- Style this nicely.  Don't worry if the form doesn't work, marks here for how well you style it. -->
+                        <p>
+                            <label for="contact-name">Your name</label>
+                            <input id="contact-name" type="text" name="contact-name" />
+                        </p>
+                        <p>
+                            <label for="contact-email">Your email address</label>
+                            <input id="contact-email" type="email" name="contact-email" /> </p>
+                        <p>
+                            <label for="contact-phone">Your phone number</label>
+                            <input id="contact-phone" type="tel" name="contact-phone" /> </p>
+                        <p>
+                            <label for="contact-message">Your message</label>
+                            <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="send my message" /> </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+		<section>
+        <footer id = "footer-layout">
+                <p> &copy; <a href="dcu.ie/">DCU 2019-2020</a>
+				<span class="footer-separator">&middot;</span>
+				<span class="footer-text">Ryan Dempster</span> <span class="footer-separator">&middot;</span> <span class="footer-text">This is student coursework</span> <span class="footer-separator">&middot;</span> <span class="footer-text">Lecturer<a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> <span class="footer-separator">&middot;</span> <span class="footer-text">
+     <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/>
+	 
+        </span> </p>
+        <!-- Note that the link to the validator above will only produce results when your page is uploaded to the server, and you click on the link from the browser.-->
+         
+        </footer>
+		</section>
+    </main>
+</body>
+
+</html>
